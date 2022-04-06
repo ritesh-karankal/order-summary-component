@@ -1,0 +1,166 @@
+/* ========================== CSS Reset ========================== */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/*
+    2. Remove default margin
+  */
+* {
+    margin: 0;
+    padding: 0;
+}
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+    height: 100%;
+}
+/*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+/*
+    6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* ========================================================== */
+
+body {
+    /* background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: hsl(225, 100%, 94%); */
+    /* order does not matter */
+    /* But for background-size it may only be included immediatly after
+        position, seperated with '/' charater like center/cover or center/80% 
+        bg-position and size should follow each other*/
+    background: hsl(225, 100%, 94%) top/100%
+        url("images/pattern-background-desktop.svg") no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    width: 450px;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.20);
+}
+
+.hero {
+    /* starts clockwise starting from top left */
+    border-radius: 20px 20px 0 0;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 28px;
+    font-weight: 700;
+    margin: 44px 115px 0;
+}
+p {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 159.5%;
+    letter-spacing: 0.005em;
+    margin: 14px 0;
+    padding: 0 75px;
+}
+
+.pricing {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    margin: 21px 48px 0;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 24px;
+}
+.plan {
+    margin-left: 20px;
+}
+
+#plan {
+    color: hsl(223, 47%, 23%);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+}
+
+#price {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.015em;
+}
+
+#change {
+    color: hsl(245, 75%, 52%);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.015em;
+    margin-left: 94px;
+}
+
+#change:hover {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    margin: 32px 48px;
+    padding: 15px 100px;
+    border-radius: 10px;
+}
+
+.button:hover {
+   box-shadow:  0px 10px 40px rgba(0, 0, 0, 0.3);
+   cursor: pointer;
+}
+
+#cancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.055em;
+    margin-bottom: 48px;
+}
+
+#cancel:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+
+}
