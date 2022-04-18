@@ -64,74 +64,73 @@ body {
 
 .container {
     background-color: white;
-    border-radius: 1.25em;
+    border-radius: 20px;
     width: 450px;
     text-align: center;
     /* display: flex; */
     /* flex-direction: column; */ 
     /* align-items: center; */
-    box-shadow: 0px 1em 2.5em rgba(112, 144, 176, 0.20);
+    box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.20);
 }
 
 .hero {
     /* starts clockwise starting from top left */
-    border-radius: 1.25em 1.25em 0 0;
+    border-radius: 20px 20px 0 0;
 }
 
 h1 {
     color: hsl(223, 47%, 23%);
-    font-size: 1.75rem;
-    line-height: 1.428em;
+    font-size: 28px;
+    line-height: 40px;
     /* identical to box height, or 40px */
+
     letter-spacing: 0.02em;
     font-weight: 700;
-    margin: 2.75rem 4.1em 0;
+    margin: 44px 115px 0;
 }
 p {
     color: hsl(224, 23%, 55%);
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 1.625em;
+    line-height: 159.5%;
     letter-spacing: 0.005em;
-    margin-top: 1em;
-    padding: 0 4.68em;
+    margin: 14px 0;
+    padding: 0 75px;
 }
 
-.pricing { 
+.pricing {
     background-color: hsl(225, 100%, 98%);
-    border-radius: 0.75em;
+    border-radius: 12px;
+    margin: 21px 48px 0;
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
     padding: 24px;
-    margin: 1.25rem 3em 0;
 }
 .plan {
-    margin-left: 1.25rem;
-    line-height: 142%;
+    margin-left: 20px;
 }
 
 #plan {
     color: hsl(223, 47%, 23%);
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.015em;
 }
 
 #price {
     color: hsl(224, 23%, 55%);
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.015em;
-    padding-top: 0.25rem;
 }
 
 #change {
     color: hsl(245, 75%, 52%);
-    font-size: 0.875rem;
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.015em;
-    margin-left: 5.875rem;
+    margin-left: 94px;
 }
 
 #change:hover {
@@ -143,12 +142,12 @@ p {
 .button {
     background-color: hsl(245, 75%, 52%);
     color: white;
-    font-size: 0.875rem;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.06em;
-    margin: 2rem 3rem;
-    padding: 0.875rem 6.25rem;
-    border-radius: 0.625em;
+    margin: 32px 48px;
+    padding: 15px 100px;
+    border-radius: 10px;
 }
 
 .button:hover {
@@ -156,12 +155,12 @@ p {
    cursor: pointer;
 }
 
-.cancel {
+#cancel {
     color: hsl(224, 23%, 55%);
     font-weight: 700;
-    font-size: 0.875rem;
+    font-size: 14px;
     letter-spacing: 0.055em;
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
 }
 
 #cancel:hover{
